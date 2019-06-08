@@ -28,7 +28,7 @@ for (real, predicted) in list(zip(y_test, predicted_values)):
 # Plotting the residuals: difference between real and predicted
 import matplotlib.pyplot as plt
 import seaborn as sns
-sns.set(palette="inferno")
+sns.set(palette="plasma")
 residuals = y_test - predicted_values
 
 sns.scatterplot(y_test, predicted_values)
